@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Booking as Single</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <form id="bookingForm">
+    <!-- Your form elements here -->
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Book more than single</title>
+      
+    </head>
+    <body>
+      <h2>Booking for more than a single person</h2>
+      <form>
+        <!DOCTYPE html> 
+    <html> 
+    <head> 
+      <title>Book more than single</title>                                          
+     <style>    
+      </style>
+      <link rel="stylesheet" href="C:\Users\hp\Downloads\rf.css">                                                                          
+    </head> 
+        <label for="name">Name:</label>     
+        <input type="text" id="name" name="name" 
+    placeholder="Enter full name" required><br><br> 
+         
+       
+         
+        <label for="phoneNumber">Phone Number:</label>     
+        <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{11}" placeholder="+91 xxxxxxxxxxx" required><br><br> 
+         
+        <label for="email">Email:</label> 
+        <input type="email" id="email" name="email" placeholder="sample@example.com" required><br><br> 
+         
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br> 
+         
+        <label for="stay">Select the trip date when you want to start</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+         
+       
+        <label for="how many people">How many People:</label> 
+        <select id="howmanypeople" name="how many people" required> 
+          <option value="" disabled selected>Select</option> 
+          <option value="2">2</option> 
+          <option value="3">3</option> 
+          <option value="4">4</option> 
+          <option value="5">5</option> 
+          <option value="5+">5+</option> 
+        </select><br><br> 
+        
+        
+        <label for="Hostel">Looking for hostel</label> 
+        <select id="hostel" name="how many people" required> 
+          <option value="" disabled selected>Select</option> 
+          <option value="2">AC</option> 
+          <option value="3">Non AC</option> 
+          <option value="4">Dont want hostel</option> 
+        </select><br><br> 
+        
+    
+        <label for="payment">Regarding Payment our team how should they contact</label> 
+        <input type="radio" id="phone" name="department" value="phone no"> 
+        <label for="phone">Phone </label> 
+        <input type="radio" id="mail" name="department" value="mail"> 
+        <label for="mail">Email</label> 
+        <input type="radio" id="wapp" name="department" value="wapp"> 
+        <label for="wapp">whatsapp</label><br><br> 
+    
+         
+        <label for="photo">Photo:</label> 
+        <input type="file" id="photo" name="photo"><br><br> 
+         
+
+    <!-- Note: Removed the <a> tag wrapping the button -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+  <script>
+   
+    const form = document.getElementById('bookingForm');
+
+   
+    form.addEventListener('submit', function(event) {
+      
+      event.preventDefault();
+
+      
+    
+      window.location.href = 'sucess.html';
+    });
+  </script>
+</body>
+</html>
